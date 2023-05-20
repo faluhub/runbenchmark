@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "runbenchmark",
+  "version": "${version}",
+  "name": "RunBenchmark",
+  "description": "A global in-game tracker that keeps track of the average times of several splits.",
+  "authors": ["falu"],
+  "contact": {
+    "homepage": "https://github.com/FaluHub"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["me.falu.runbenchmark.RunBenchmark"]
+  },
+  "mixins": ["runbenchmark.mixins.json"],
+  "depends": {
+    "minecraft": "1.16.1"
+  }
+}
